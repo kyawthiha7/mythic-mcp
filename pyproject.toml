@@ -1,0 +1,10 @@
+[project]
+name = "mythic-mcp"
+version = "0.2.0"
+description = "Mythic C2 as an MCP server for LLM-driven penetration testing"
+requires-python = ">=3.10"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.4.1",
+    "mythic>=0.2.5",
+]
